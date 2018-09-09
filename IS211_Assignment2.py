@@ -87,7 +87,7 @@ def displayPerson(id, personData):
     """
     id_num = str(id)
     if id_num in personData.keys():
-        print 'Person #{} is {} with a brthday of {}'.format(
+        print 'Person #{} is {} with a brthday of {}.'.format(
             id, personData[id_num][0],
             datetime.datetime.strftime(personData[id_num][1], '%Y-%m-%d'))
     else:
