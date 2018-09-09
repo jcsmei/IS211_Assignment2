@@ -7,7 +7,6 @@ import csv
 import datetime
 import logging
 import argparse
-import pprint
 import sys
 
 parser = argparse.ArgumentParser()
